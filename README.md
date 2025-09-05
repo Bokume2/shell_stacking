@@ -30,8 +30,9 @@ git clone https://github.com/Bokume2/shell_stacking.git
 ./shell_stacking.sh -e <code>
 ```
 
-## Syntax
-ドキュメントの整備予定は未定です。処理系から読み解くか、作者に直接聞いたりドキュメントの整備を急かしたりして下さい。
+## Syntax and Semantics
+この言語の大まかな構文は[shell stackingの構文](docs/syntax.md)に、各命令の詳細等は[shell stackingの動作](docs/semantics.md)に記述されています。  
+不明点は処理系のスクリプトから読み解いて下さい。~~恐らく作者も分かっていません~~
 
 ## Samples
 - [hello.shstack](samples/hello.shstack)  
