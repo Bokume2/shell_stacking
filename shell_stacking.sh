@@ -168,6 +168,11 @@ run() {
     "^" )
       pop
       tmp=$popped
+      if [ $tmp -lt 0 ]; than
+        echo >&2
+        echo "Error: Invalid index of heap. (index must be positive)" >&2
+        return 1
+      fi
       pop
       heap[$tmp]=$popped
       ;;
