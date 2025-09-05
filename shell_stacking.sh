@@ -170,10 +170,7 @@ run() {
     "~" )
       pop
       tmp=$popped
-      if [ -z ${heap[$tmp]} ]; then
-        heap[$tmp]=0
-      fi
-      push ${heap[$tmp]}
+      push ${heap[$tmp]:=0}
       ;;
     #input(char)
     "," )
