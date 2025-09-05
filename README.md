@@ -36,6 +36,8 @@ git clone https://github.com/Bokume2/shell_stacking.git
 ## Samples
 - [hello.shstack](samples/hello.shstack)  
   いわゆるHello Worldです。実行すると`Hello, shell script world!`が改行付きで出力されます。
+- [fizzbuzz.shstack](samples/fizzbuzz.shstack)  
+  最初に入力した数までのFizzBuzzを出力します。0以下を入力すると何も出力しません。
 
 ## Licence
 このソフトウェアは[Unlicenseライセンス](https://unlicense.org)の下に配布されています。  
