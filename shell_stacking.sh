@@ -320,6 +320,4 @@ if [ -z "$code" ]; then
   fi
 fi
 
-# [ -n MY_DEBUG ] && set -x
-
 run "$code" || exit $?
