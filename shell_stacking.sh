@@ -76,7 +76,7 @@ run() {
       pop
       tmp=$popped
       pop
-      push $((popped+tmp))
+      push $((popped-tmp))
       ;;
     #multiply
     "*" )
