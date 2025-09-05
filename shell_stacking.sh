@@ -25,7 +25,7 @@ ord() {
 
 chr() {
   local hex=$(printf "%x" "$1")
-  printf "\x${hex}"
+  printf "\U${hex}"
 }
 
 run() {
