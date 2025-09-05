@@ -183,7 +183,7 @@ run() {
     #input(number)
     "|" )
       tmp=""
-      local pattern="^([0-9]+).*"
+      local pattern="^(-?[0-9]+).*"
       while [[ ! "$tmp" =~ $pattern ]]; do
         read tmp
       done
