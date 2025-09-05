@@ -315,7 +315,7 @@ if [ -z "$code" ]; then
     echo "Error: Pass source file or code." >&2
     usage 1
   else
-    echo "Error: Cannot find ${$1} as a file." >&2
+    echo "Error: Cannot find ${1} as a file." >&2
     usage 1
   fi
 fi
