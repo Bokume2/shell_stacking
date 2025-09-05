@@ -177,9 +177,9 @@ run() {
       ;;
     #input(char)
     "," )
-      if [ -z "$ibuf" ]; then
+      while [ -z "$ibuf" ]; do
         IFS="" read ibuf
-      fi
+      done
       push $(ord "${ibuf:0:1}")
       ibuf="${ibuf:1}"
       ;;
