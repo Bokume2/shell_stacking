@@ -295,7 +295,7 @@ for opt; do
       echo "Error: Pass a code after -e option." >&2
       usage 1
     fi
-    code="$1"
+    code="$2"
     break
     ;;
   "-f" )
