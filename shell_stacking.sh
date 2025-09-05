@@ -187,7 +187,7 @@ run() {
     "|" )
       tmp=""
       local pattern="^([0-9]+).*"
-      while [ ! "$tmp" =~ $pattern ]; do
+      while [[ ! "$tmp" =~ $pattern ]]; do
         read tmp
       done
       push ${BASH_REMATCH[1]}
