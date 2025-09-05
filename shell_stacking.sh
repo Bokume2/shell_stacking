@@ -159,6 +159,11 @@ run() {
     "#" )
       push $stack_size
       ;;
+    #trash
+    "$" )
+      pop
+      tmp=$popped
+      ;;
     #store to heap
     "^" )
       pop
@@ -198,11 +203,6 @@ run() {
     "_" )
       pop
       printf "%d" $popped
-      ;;
-    #trash
-    "$" )
-      pop
-      tmp=$popped
       ;;
     #loop start
     "[" )
