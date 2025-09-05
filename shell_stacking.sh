@@ -168,7 +168,7 @@ run() {
     "^" )
       pop
       tmp=$popped
-      if [ $tmp -lt 0 ]; than
+      if [ $tmp -lt 0 ]; then
         echo >&2
         echo "Error: Invalid index of heap. (index must be positive)" >&2
         return 1
